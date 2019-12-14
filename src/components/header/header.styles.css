@@ -1,0 +1,49 @@
+.header{
+    grid-column: 1 / -1;
+    height: 6rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+}
+nav button,.learnMore{
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    transition: all .1s;
+    font-weight: bold;
+}
+
+
+
+nav button:hover{
+    color: rgb(73, 70, 70);
+}
+
+nav button:focus{
+    color: rgb(73, 70, 70);
+}
+.learnMore:hover{
+    background-color: rgb(13, 167, 25);
+
+}
+.learnMore{
+    font-weight: normal;
+
+    background-color: rgb(3, 117, 13);
+    padding: .5rem 1rem;
+
+}
+

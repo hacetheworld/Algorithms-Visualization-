@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  background-color: #000;
+
+
+}
+.App{
+  width: 118rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 6rem 80vh;
+}
