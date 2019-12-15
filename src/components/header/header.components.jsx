@@ -12,7 +12,7 @@ export default class Header extends Component {
                     <button onClick={this.props.insertionSort}>Insertion Sort</button>
                     <button onClick={this.props.mergeSort}>Merge Sort</button>
                     <button onClick={this.props.quickSort}>Quick Sort</button>
-                    <button onClick={this.props.radixSort}>Radix Sort</button>
+                    {/* <button onClick={this.props.radixSort}>Radix Sort</button> */}
                 </nav>
                 <button onClick={this.props.generateBars} className='learnMore'>Generate Bars</button>
             </header>

@@ -7,6 +7,7 @@ export default class Main extends Component {
     render() {
         let bars = this.props.generateBars;
         let color = this.props.color;
+
         return (
             <main className='main'>
                 <div className='bar-container'>

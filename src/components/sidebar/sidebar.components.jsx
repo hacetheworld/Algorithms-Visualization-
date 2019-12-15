@@ -3,14 +3,22 @@ import './sidebar.styles.css'
 export default function Sidebar() {
     return (
         <div className='sidebar'>
-            <div className='pseudoCode'>
-                <p>Click Here For See Merge Sort Pseudo Code</p>
-                <button >Pseudo Code</button>
-            </div>
-            <div className='explanation'>
-                <p>Click Here For See Merge Sort Explanation</p>
 
-                <button >Explanation</button>
+            <div className='explanation'>
+
+                <p>Hi , I'm an self taught software engineer . i love to make cool project like this one </p>
+
+                <a className='aboutUs' href='https://ajay-meena.in/' type='button'>
+                    Blog
+                        </a>
+
+            </div>
+
+            <div className='pseudoCode'>
+                <p>Do you Like This Project , want to say Hi</p>
+                <a className='contact' href='mailto:majay1638@gmail.com' type='button'>
+                    Say Hello
+                        </a>
             </div>
             <ul className='social'>
                 <li>
@@ -29,7 +37,7 @@ export default function Sidebar() {
                     </a>
                 </li>
                 <li>
-                    <a href='https://hacetheworld.github.io/'>
+                    <a href='https://ajay-meena.in/'>
                         Website
                     </a>
                 </li>

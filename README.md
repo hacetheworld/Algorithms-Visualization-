@@ -7,6 +7,9 @@ Open  https://mystifying-elion-369444.netlify.com/
 
 This is simple website , i made it for better understanding of algorithms ,  if you want to improve it please feel free to do so.
 
+Please Do Not forget to link this repo if you want change something on your project .
+
+
 Thanks
 
 
